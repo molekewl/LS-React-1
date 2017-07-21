@@ -1,2 +1,58 @@
 // global styles go in here. 
 // When you start writing styles for your individual components you'll have to start importing them
+body {
+	text-align: center;
+	border: 1px dotted #81C784;
+	margin-left: 100px;
+	margin-right: 150px;
+	padding: 50px;
+	background-color: whitesmoke;
+	font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+	margin-right: 100px;
+}
+.toDoList .header input {
+	text-align: center;
+  	padding: 30px;
+	font-size: 20px;
+	border: 5px solid #81C784;
+}
+.toDoList .header input:hover {
+	border: 5px solid #00BCD4;
+}
+.toDoList .header button {
+	text-align: center;
+	padding: 30px;
+	font-size: 20px;
+	margin: 10px;
+	background-color: #00BCD4;
+	color: whitesmoke;
+	border: 2px solid whitesmoke;
+}
+.toDoList .header button:hover {
+	background-color: #80DEEA;
+	border: 2px solid whitesmoke;
+	color: whitesmoke;
+	cursor: pointer;
+}
+ul {
+	display: inline-block;
+	font-size: 20px;
+	list-style-type: none;
+	margin: 0;
+	margin-right: 100px;
+	padding: 0;
+	width: 250px;
+	padding-bottom: 10px;
+}
+li {
+	color: whitesmoke;
+	background-color: #00BCD4;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px 0;
+}
+li:hover {
+	background-color: #80DEEA;
+}
